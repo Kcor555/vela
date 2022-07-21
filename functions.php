@@ -57,8 +57,8 @@ if ( ! function_exists( 'vela_setup' ) )  :
 		// Main stylesheet.
 		wp_register_style(
 			'vela_styles',
-			get_stylesheet_directory_uri() . '/style.css' ),
-		array(),
+			get_stylesheet_directory_uri() . '/style.css' ,
+			[],
 		$version_string
 		);
 		wp_enqueue_style( 'vela_styles' );
@@ -68,7 +68,7 @@ if ( ! function_exists( 'vela_setup' ) )  :
 		wp_register_style(
 	'vela-theme-style',
 	get_stylesheet_directory_uri() . '/assets/css/style.css',
-		array(),
+		[],
 		$version_string
 		);
 

@@ -10,3 +10,7 @@ License: The license of the theme.
 License URI: The URL of the theme license.
 Text Domain:
 */
+
+p.has-text-align-center.fof-no-mt.has-slateblue-background-color.has-background {
+	margin-top: 0;
+}
